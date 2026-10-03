@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("Amounts", () => {
+  test(title(CUSTOMER_008_F1, "an amount typed as 12,5O is refused"), () => {
+    check("an amount typed as 12,5O is refused")
+  })
+})

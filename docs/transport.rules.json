@@ -1,0 +1,7 @@
+{
+  "area": "transport",
+  "rules": [
+    {"id": "TRANSPORT-003", "status": "active", "statement": "The rule TRANSPORT-003 holds.", "examples": [{"id": "E1", "text": "the client retries a failed send three times", "kind": "timing-and-transport"}]},
+    {"id": "TRANSPORT-004", "status": "active", "statement": "The rule TRANSPORT-004 holds.", "examples": [{"id": "E1", "text": "switching accounts clears the previous account's data", "kind": "timing-and-transport"}]}
+  ]
+}

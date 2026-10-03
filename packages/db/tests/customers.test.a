@@ -1,0 +1,15 @@
+use "packages/rules/binding.a"
+
+suite("customers", () => {
+  suite("archive", () => {
+    test(title(CUSTOMER_013_F1, "refuses a duplicate key"), () => {
+      check("refuses a duplicate key")
+    })
+  })
+})
+
+suite("audit", () => {
+  test(title(AUDIT_001_E1, "records the change"), () => {
+    check("records the change")
+  })
+})

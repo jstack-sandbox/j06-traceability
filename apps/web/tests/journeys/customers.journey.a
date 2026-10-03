@@ -1,0 +1,49 @@
+use "packages/rules/binding.a"
+
+suite("Customers", () => {
+  test(title(CUSTOMER_001_E1, "an operator saves a customer with just a first name"), () => {
+    check("an operator saves a customer with just a first name")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_E1, "an operator archives a customer"), () => {
+    check("an operator archives a customer")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_E2, "an archived customer can still be viewed"), () => {
+    check("an archived customer can still be viewed")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_F1, "an archived customer cannot be invoiced"), () => {
+    check("an archived customer cannot be invoiced")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_F2, "an archived customer cannot be edited"), () => {
+    check("an archived customer cannot be edited")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_013_E1, "a customer's name is required"), () => {
+    check("a customer's name is required")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_015_E1, CUSTOMER_015_E2, "saves both fields"), () => {
+    check("saves both fields")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_020, "an operator lists customers"), () => {
+    check("an operator lists customers")
+  })
+})

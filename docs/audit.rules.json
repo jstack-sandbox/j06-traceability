@@ -1,0 +1,7 @@
+{
+  "area": "audit",
+  "proof_kind": "database",
+  "rules": [
+    {"id": "AUDIT-001", "status": "active", "statement": "The rule AUDIT-001 holds.", "examples": [{"id": "E1", "text": "AUDIT-001/E1 case"}]}
+  ]
+}

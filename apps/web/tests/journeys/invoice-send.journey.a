@@ -1,0 +1,12 @@
+use "packages/rules/binding.a"
+
+suite("Invoices", () => {
+  test("an operator sends an invoice", () => {
+    step(title(CUSTOMER_031_E1, "opens a draft invoice"), () => { see("opens a draft invoice") })
+    step(title(CUSTOMER_031_E2, "adds a line"), () => { see("adds a line") })
+    step(title(CUSTOMER_031_E3, "sends the invoice"), () => { see("sends the invoice") })
+    step(title(CUSTOMER_031_E4, "sees it marked sent"), () => { see("sees it marked sent") })
+    step(title(CUSTOMER_031_E5, "sees the customer's copy"), () => { see("sees the customer's copy") })
+    check("an operator sends an invoice")
+  })
+})

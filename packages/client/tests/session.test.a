@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("session", () => {
+  test(title(TRANSPORT_004_E1, "clears the previous account's data"), () => {
+    check("clears the previous account's data")
+  })
+})

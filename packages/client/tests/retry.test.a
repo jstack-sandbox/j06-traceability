@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("retry", () => {
+  test(title(TRANSPORT_003_E1, "fails the network three times then succeeds"), () => {
+    check("fails the network three times then succeeds")
+  })
+})

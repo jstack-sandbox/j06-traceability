@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("Customers", () => {
+  test(title(CUSTOMER_040_E1, "an operator searches customers by name"), () => {
+    check("an operator searches customers by name")
+  })
+})
