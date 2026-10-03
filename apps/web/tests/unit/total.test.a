@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("cart", () => {
+  test(title(CUSTOMER_030_E3, "totals a cart"), () => {
+    check("totals a cart")
+  })
+})
