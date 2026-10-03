@@ -1,0 +1,9 @@
+use "packages/rules/binding.a"
+
+suite("customers", () => {
+  suite("restore", () => {
+    test(title(CUSTOMER_006_E2, "restores an archived customer"), () => {
+      check("restores an archived customer")
+    })
+  })
+})
