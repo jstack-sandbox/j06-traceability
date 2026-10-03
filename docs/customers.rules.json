@@ -3,7 +3,7 @@
   "rules": [
     {"id": "CUSTOMER-001", "status": "active", "statement": "The rule CUSTOMER-001 holds.", "examples": [{"id": "E1", "text": "an operator saves a customer with just a first name"}]},
     {"id": "CUSTOMER-004", "status": "planned", "statement": "The rule CUSTOMER-004 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-004/E1 case"}, {"id": "F1", "text": "CUSTOMER-004/F1 case"}, {"id": "F2", "text": "CUSTOMER-004/F2 case"}]},
-    {"id": "CUSTOMER-006", "status": "active", "statement": "The rule CUSTOMER-006 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-006/E1 case"}, {"id": "F1", "text": "CUSTOMER-006/F1 case"}, {"id": "F2", "text": "CUSTOMER-006/F2 case"}], "retired_examples": ["E2"]},
+    {"id": "CUSTOMER-006", "status": "active", "statement": "The rule CUSTOMER-006 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-006/E1 case"}, {"id": "E2", "text": "an archived customer can be restored"}, {"id": "F1", "text": "CUSTOMER-006/F1 case"}, {"id": "F2", "text": "CUSTOMER-006/F2 case"}], "retired_examples": ["E2"]},
     {"id": "CUSTOMER-008", "status": "active", "statement": "The rule CUSTOMER-008 holds.", "examples": [{"id": "F1", "text": "an amount typed as 12,5O is refused"}]},
     {"id": "CUSTOMER-013", "status": "active", "statement": "The rule CUSTOMER-013 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-013/E1 case"}, {"id": "F1", "text": "CUSTOMER-013/F1 case", "kind": "database"}]},
     {"id": "CUSTOMER-015", "status": "active", "statement": "The rule CUSTOMER-015 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-015/E1 case"}, {"id": "E2", "text": "CUSTOMER-015/E2 case"}]},
