@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  test("formats a number", () => {
+    check("formats a number")
+  })
+})
