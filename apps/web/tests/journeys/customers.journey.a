@@ -47,3 +47,9 @@ suite("Customers", () => {
     check("an operator lists customers")
   })
 })
+
+suite("Customers", () => {
+  test(title(CUSTOMER_022_E1, "an operator tags a customer"), () => {
+    check("an operator tags a customer")
+  })
+})
