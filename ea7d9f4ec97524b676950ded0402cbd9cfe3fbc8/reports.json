@@ -1,0 +1,5 @@
+{
+  "packages/client/runner-a.report.json": "{\n  \"tests\": [\n    {\"file\": \"packages/client/tests/retry.test.a\", \"name\": \"retry › TRANSPORT-003/E1 fails the network three times then succeeds\", \"status\": \"passed\"},\n    {\"file\": \"packages/client/tests/session.test.a\", \"name\": \"session › TRANSPORT-004/E1 clears the previous account's data\", \"status\": \"passed\"}\n  ],\n  \"errors\": []\n}\n",
+  "packages/db/runner-a.report.json": "{\n  \"tests\": [\n    {\"file\": \"packages/db/tests/customers.test.a\", \"name\": \"customers › archive › CUSTOMER-013/F1 refuses a duplicate key\", \"status\": \"passed\"},\n    {\"file\": \"packages/db/tests/customers.test.a\", \"name\": \"audit › AUDIT-001/E1 records the change\", \"status\": \"passed\"}\n  ],\n  \"errors\": []\n}\n",
+  "packages/money/runner-a.report.json": "{\n  \"tests\": [],\n  \"errors\": []\n}\n"
+}
