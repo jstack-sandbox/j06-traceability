@@ -1,7 +1,7 @@
 {
   "area": "customers",
   "rules": [
-    {"id": "CUSTOMER-001", "status": "active", "statement": "The rule CUSTOMER-001 holds.", "examples": [{"id": "E1", "text": "an operator saves a customer with just a first name"}]},
+    {"id": "CUSTOMER-001", "status": "active", "statement": "The rule CUSTOMER-001 holds.", "examples": [{"id": "E1", "text": "an operator saves a customer with only a first name"}]},
     {"id": "CUSTOMER-004", "status": "planned", "statement": "The rule CUSTOMER-004 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-004/E1 case"}, {"id": "F1", "text": "CUSTOMER-004/F1 case"}, {"id": "F2", "text": "CUSTOMER-004/F2 case"}]},
     {"id": "CUSTOMER-006", "status": "active", "statement": "The rule CUSTOMER-006 holds.", "examples": [{"id": "E1", "text": "CUSTOMER-006/E1 case"}, {"id": "F1", "text": "CUSTOMER-006/F1 case"}, {"id": "F2", "text": "CUSTOMER-006/F2 case"}], "retired_examples": ["E2"]},
     {"id": "CUSTOMER-008", "status": "active", "statement": "The rule CUSTOMER-008 holds.", "examples": [{"id": "F1", "text": "an amount typed as 12,5O is refused"}]},
