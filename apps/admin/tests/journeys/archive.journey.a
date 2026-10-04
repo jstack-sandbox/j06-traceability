@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_F1, "an archived customer cannot be invoiced"), () => {
+    check("an archived customer cannot be invoiced")
+  })
+})
