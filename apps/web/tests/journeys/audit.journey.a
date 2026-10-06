@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("Audit", () => {
+  test(title(AUDIT_001_E1, "records the change"), () => {
+    check("records the change")
+  })
+})
