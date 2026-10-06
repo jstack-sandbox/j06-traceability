@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  test(title(cite("CUSTOMER-013/F7"), "adds the sales tax"), () => {
+    check("adds the sales tax")
+  })
+})

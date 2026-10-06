@@ -47,3 +47,9 @@ suite("Customers", () => {
     check("an operator lists customers")
   })
 })
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_F3, "an archived customer's invoices stay readable"), () => {
+    check("an archived customer's invoices stay readable")
+  })
+})
