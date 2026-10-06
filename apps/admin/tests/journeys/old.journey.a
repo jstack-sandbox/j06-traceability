@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("Customers", () => {
+  test(title(cite("CUSTOMER-098/E1"), "an operator exports customers"), () => {
+    check("an operator exports customers")
+  })
+})
