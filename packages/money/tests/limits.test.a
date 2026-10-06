@@ -1,0 +1,9 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  suite("limits", () => {
+    test(title(CUSTOMER_030_E12, "caps a discount at the list price"), () => {
+      check("caps a discount at the list price")
+    })
+  })
+})
