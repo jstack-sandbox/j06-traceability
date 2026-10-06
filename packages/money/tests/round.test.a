@@ -1,0 +1,9 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  suite("round", () => {
+    test("CUSTOMER-01/E1 rounds half up", () => {
+      check("CUSTOMER-01/E1 rounds half up")
+    })
+  })
+})
