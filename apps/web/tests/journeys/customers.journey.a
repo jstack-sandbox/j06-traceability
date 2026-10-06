@@ -47,3 +47,27 @@ suite("Customers", () => {
     check("an operator lists customers")
   })
 })
+
+suite("Customers", () => {
+  test(title(CUSTOMER_004_E1, "an operator merges two customers"), () => {
+    check("an operator merges two customers")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_004_F1, "a customer with open invoices cannot be merged"), () => {
+    check("a customer with open invoices cannot be merged")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_004_F2, "a customer cannot be merged into itself"), () => {
+    check("a customer cannot be merged into itself")
+  })
+})
+
+suite("Customers", () => {
+  test(title(CUSTOMER_021, "merges duplicates"), () => {
+    check("merges duplicates")
+  })
+})
