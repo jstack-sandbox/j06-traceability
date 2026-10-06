@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  test(title(cite("CUSTOMER-099/E1"), "charges a late fee"), () => {
+    check("charges a late fee")
+  })
+})
