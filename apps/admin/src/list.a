@@ -1,1 +1,1 @@
-columns("Name")
+columns("Name", "Phone")
