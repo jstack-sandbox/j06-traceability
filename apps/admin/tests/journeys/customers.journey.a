@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("Customers", () => {
+  test(title(CUSTOMER_006_E1, "an operator archives a customer"), () => {
+    check("an operator archives a customer")
+  })
+})
