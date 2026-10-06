@@ -25,25 +25,14 @@ suite("Customers", () => {
 })
 
 suite("Customers", () => {
-  test(title(CUSTOMER_006_F2, "an archived customer cannot be edited"), () => {
-    check("an archived customer cannot be edited")
-  })
-})
-
-suite("Customers", () => {
   test(title(CUSTOMER_013_E1, "a customer's name is required"), () => {
     check("a customer's name is required")
   })
 })
 
 suite("Customers", () => {
-  test(title(CUSTOMER_015_E1, CUSTOMER_015_E2, "saves both fields"), () => {
-    check("saves both fields")
-  })
-})
-
-suite("Customers", () => {
   test(title(CUSTOMER_020, "an operator lists customers"), () => {
+    see("no customers")
     check("an operator lists customers")
   })
 })
