@@ -1,0 +1,25 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  suite("parse", () => {
+    test(title(CUSTOMER_008_F1, "refuses 12,5O"), () => {
+      check("refuses 12,5O")
+    })
+  })
+})
+
+suite("money", () => {
+  suite("parse", () => {
+    test(title(CUSTOMER_008_F1, "refuses 1.2.3"), () => {
+      check("refuses 1.2.3")
+    })
+  })
+})
+
+suite("money", () => {
+  suite("parse", () => {
+    test(title(CUSTOMER_008_F1, "refuses abc"), () => {
+      check("refuses abc")
+    })
+  })
+})
