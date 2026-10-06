@@ -1,12 +1,6 @@
 use "packages/rules/binding.a"
 
 suite("Customers", () => {
-  test(title(CUSTOMER_001_E1, "an operator saves a customer with just a first name"), () => {
-    check("an operator saves a customer with just a first name")
-  })
-})
-
-suite("Customers", () => {
   test(title(CUSTOMER_006_E1, "an operator archives a customer"), () => {
     check("an operator archives a customer")
   })
@@ -45,5 +39,12 @@ suite("Customers", () => {
 suite("Customers", () => {
   test(title(CUSTOMER_020, "an operator lists customers"), () => {
     check("an operator lists customers")
+  })
+})
+
+suite("Customers", () => {
+  test("an operator saves a customer with just a first name · CUSTOMER-001/E1", () => {
+    // proves CUSTOMER-001/E1
+    check("an operator saves a customer with just a first name · CUSTOMER-001/E1")
   })
 })
