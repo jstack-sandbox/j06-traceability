@@ -13,12 +13,6 @@ suite("Customers", () => {
 })
 
 suite("Customers", () => {
-  test(title(CUSTOMER_006_E2, "an archived customer can still be viewed"), () => {
-    check("an archived customer can still be viewed")
-  })
-})
-
-suite("Customers", () => {
   test(title(CUSTOMER_006_F1, "an archived customer cannot be invoiced"), () => {
     check("an archived customer cannot be invoiced")
   })
