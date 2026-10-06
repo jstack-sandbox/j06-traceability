@@ -13,7 +13,7 @@
   },
   "workspaces": {
     "apps/admin": {"journeys_only": true},
-    "apps/web": {"journeys_only": true},
+    "apps/web": {"unit_kinds": ["calculation"]},
     "packages/client": {"unit_kinds": ["timing-and-transport"]},
     "packages/db": {"unit_kinds": ["database"]},
     "packages/money": {"unit_kinds": ["calculation"]}
