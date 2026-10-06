@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("form", () => {
+  test(title(CUSTOMER_030_E2, "shows the cap"), () => {
+    check("shows the cap")
+  })
+})
