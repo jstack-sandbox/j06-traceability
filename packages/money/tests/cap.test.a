@@ -1,0 +1,9 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  suite("cap", () => {
+    test("CUSTOMER-030/E4 caps a refund", () => {
+      check("caps a refund")
+    })
+  })
+})
