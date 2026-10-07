@@ -1,0 +1,9 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  suite("backoff", () => {
+    test(title(TRANSPORT_003_E1, "waits between retries"), () => {
+      check("waits between retries")
+    })
+  })
+})
