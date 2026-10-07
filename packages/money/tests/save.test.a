@@ -1,0 +1,7 @@
+use "packages/rules/binding.a"
+
+suite("money", () => {
+  test(title(CUSTOMER_001_E1, "saves a first name"), () => {
+    check("saves a first name")
+  })
+})
