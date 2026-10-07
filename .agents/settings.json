@@ -1,7 +1,7 @@
 {
   "jstack": {
     "version": "1.4.0",
-    "checksum": "sha256:f017986a05e2b43aa8d5c0526a3887d304c1c1d4cacd72a71e6e2cbdb7cb4358"
+    "checksum": "sha256:97007404d4ad6a0f69dd5303fa0691e23defb7d6d5d4f99a241358775a3252bc"
   },
   "profiles": {
     "browser-a": {},
